@@ -1,0 +1,17 @@
+{
+  "expo": {
+    "name": "M-Factor Health",
+    "slug": "m-factor-health",
+    "scheme": "mfactorhealth",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "backgroundColor": "#F9FAFB",
+    "splash": {"image": "./assets/splash.png", "resizeMode": "contain", "backgroundColor": "#FFCD43"},
+    "android": {"package": "org.mfactor.health", "adaptiveIcon": {"foregroundImage": "./assets/adaptive-icon.png", "backgroundColor": "#FFCD43"}},
+    "ios": {"bundleIdentifier": "org.mfactor.health", "supportsTablet": true, "infoPlist": {"ITSAppUsesNonExemptEncryption": false}},
+    "plugins": [],
+    "extra": {"contentRelease": "demonstration-1", "clinicalStatus": "unvalidated-demo"}
+  }
+}
